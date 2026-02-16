@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
 name: CI
-run-name: ${{ github.actor }}
+run-name: Triggered by ${{ github.actor }}
 env:
   GITHUB_ACTIONS: true
 
