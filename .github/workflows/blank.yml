@@ -28,4 +28,4 @@ jobs:
 
       - run: echo "Variable 'GITHUB_ACTIONS' is ${{ env.GITHUB_ACTIONS }}"
       - run: echo "Current branch is ${{ github.ref }} in repository ${{ github.repository }}"
-      - run: echo "Job was triggered by event: ${{ github.event_name }}"
+      - run: echo "Job was triggered by event - ${{ github.event_name }}"
